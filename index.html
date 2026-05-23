@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RénoGuide — Tutoriels de rénovation maison et appartement : électricité, plomberie, peinture, carrelage, isolation et menuiserie.">
+  <title>RénoGuide — Tutoriels de rénovation</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-inner" aria-label="Navigation principale">
+        <a href="index.html" class="logo">
+          <span class="logo-icon">🏠</span>
+          Réno<span>Guide</span>
+        </a>
+        <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+        <ul class="nav-links" role="list">
+          <li><a href="electricite.html" class="nav-link"><span class="nav-icon">⚡</span>Électricité</a></li>
+          <li><a href="plomberie.html"   class="nav-link"><span class="nav-icon">🚿</span>Plomberie</a></li>
+          <li><a href="peinture.html"    class="nav-link"><span class="nav-icon">🖌️</span>Peinture</a></li>
+          <li><a href="carrelage.html"   class="nav-link"><span class="nav-icon">🏠</span>Carrelage</a></li>
+          <li><a href="isolation.html"   class="nav-link"><span class="nav-icon">🧱</span>Isolation</a></li>
+          <li><a href="menuiserie.html"  class="nav-link"><span class="nav-icon">🚪</span>Menuiserie</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="container hero-content">
+      <div class="hero-badge">✨ Guides pas à pas pour particuliers</div>
+      <h1 id="heroTitle">Rénover sa maison,<br><span>c'est plus simple</span> qu'on croit</h1>
+      <p class="hero-sub">Des tutoriels clairs et détaillés pour réaliser vos travaux en toute sécurité — électricité, plomberie, peinture et bien plus.</p>
+      <div class="search-bar" role="search">
+        <input type="text" id="searchInput" placeholder="Chercher un tutoriel… ex : robinet, prise, enduit" aria-label="Recherche">
+        <button id="searchBtn" aria-label="Lancer la recherche">🔍</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-strip" aria-label="Statistiques du site">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat"><span class="stat-icon">📚</span><strong>14</strong> tutoriels</div>
+        <div class="stat"><span class="stat-icon">🗂️</span><strong>6</strong> catégories</div>
+        <div class="stat"><span class="stat-icon">🟢</span><strong>100 %</strong> gratuit</div>
+        <div class="stat"><span class="stat-icon">🔒</span>Conseils sécurité inclus</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CATEGORIES -->
+  <section class="section" aria-labelledby="catTitle">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" id="catTitle">Parcourir par catégorie</h2>
+        <p class="section-sub">Choisissez votre domaine d'intervention pour trouver les tutoriels adaptés.</p>
+      </div>
+      <div class="categories-grid" id="categoriesGrid" role="list" aria-label="Catégories de tutoriels"></div>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section class="section" style="background:#fff; border-top:1px solid var(--border)" aria-labelledby="featTitle">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" id="featTitle">Tutoriels populaires</h2>
+        <p class="section-sub">Un tutoriel par catégorie pour commencer — cliquez pour voir le guide complet.</p>
+      </div>
+      <div class="tutorials-grid" id="featuredGrid" aria-label="Tutoriels mis en avant"></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" aria-label="Pied de page">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">🏠 Réno<span>Guide</span></div>
+          <p class="footer-desc">Des tutoriels de rénovation accessibles à tous, rédigés avec le souci du détail et de la sécurité. Rénovez malin, rénovez en sécurité.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Catégories</h4>
+          <ul class="footer-links" role="list">
+            <li><a href="electricite.html">⚡ Électricité</a></li>
+            <li><a href="plomberie.html">🚿 Plomberie</a></li>
+            <li><a href="peinture.html">🖌️ Peinture</a></li>
+            <li><a href="carrelage.html">🏠 Carrelage</a></li>
+            <li><a href="isolation.html">🧱 Isolation</a></li>
+            <li><a href="menuiserie.html">🚪 Menuiserie</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Niveaux</h4>
+          <ul class="footer-links" role="list">
+            <li><a href="#">🟢 Débutant</a></li>
+            <li><a href="#">🟡 Intermédiaire</a></li>
+            <li><a href="#">🔴 Avancé</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 RénoGuide — Tous droits réservés. Les informations fournies sont indicatives ; consultez un professionnel agréé pour les travaux complexes.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

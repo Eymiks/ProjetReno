@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recherche de tutoriels de rénovation — RénoGuide">
+  <title>Recherche — RénoGuide</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="search">
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav-inner" aria-label="Navigation principale">
+        <a href="index.html" class="logo"><span class="logo-icon">🏠</span>Réno<span>Guide</span></a>
+        <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+        <ul class="nav-links" role="list">
+          <li><a href="electricite.html" class="nav-link">⚡ Électricité</a></li>
+          <li><a href="plomberie.html"   class="nav-link">🚿 Plomberie</a></li>
+          <li><a href="peinture.html"    class="nav-link">🖌️ Peinture</a></li>
+          <li><a href="carrelage.html"   class="nav-link">🏠 Carrelage</a></li>
+          <li><a href="isolation.html"   class="nav-link">🧱 Isolation</a></li>
+          <li><a href="menuiserie.html"  class="nav-link">🚪 Menuiserie</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section style="background:#fff; border-bottom:1px solid var(--border); padding: 2.5rem 0 1.5rem">
+    <div class="container">
+      <div class="search-bar" role="search" style="max-width:560px">
+        <input type="text" id="searchInput" placeholder="Chercher un tutoriel…" aria-label="Recherche">
+        <button id="searchBtn" aria-label="Lancer la recherche">🔍</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div id="searchResultsHeader" class="search-results-header" style="margin-bottom:2rem"></div>
+      <div class="tutorials-grid" id="searchGrid" aria-label="Résultats de recherche"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">🏠 Réno<span>Guide</span></div>
+          <p class="footer-desc">Des tutoriels de rénovation accessibles à tous.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Catégories</h4>
+          <ul class="footer-links">
+            <li><a href="electricite.html">⚡ Électricité</a></li>
+            <li><a href="plomberie.html">🚿 Plomberie</a></li>
+            <li><a href="peinture.html">🖌️ Peinture</a></li>
+            <li><a href="carrelage.html">🏠 Carrelage</a></li>
+            <li><a href="isolation.html">🧱 Isolation</a></li>
+            <li><a href="menuiserie.html">🚪 Menuiserie</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Retour</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">← Accueil</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 RénoGuide</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
